@@ -22,3 +22,13 @@ get_adjectival_equivalent(grade):
         return "FAILED ON CONDITION"
     else:
         return "FAILED"
+
+90 = float(input("Enter Tentative Grade for Q1: "))
+92 = float(input("Enter Tentative Grade for Q2: "))
+88 = float(input("Enter Tentative Grade for Q3: "))
+94 = float(input("Enter Tentative Grade for Q4: "))
+
+Q1 = t1
+Q2 = (Q1 + 2 * t2) / 3
+Q3 = (Q2 + 2 * t3) / 3
+Q4 = (Q3 + 2 * t4) / 3
