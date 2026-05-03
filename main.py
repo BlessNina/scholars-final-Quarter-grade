@@ -32,3 +32,10 @@ Q1 = t1
 Q2 = (Q1 + 2 * t2) / 3
 Q3 = (Q2 + 2 * t3) / 3
 Q4 = (Q3 + 2 * t4) / 3
+
+print("\n--- RESULTS ---")
+print(f"Q1 Grade: {Q1:.2f}")
+print(f"Q2 Grade: {Q2:.2f}")
+print(f"Q3 Grade: {Q3:.2f}")
+print(f"Final Grade (Q4): {Q4:.2f}")
+print(f"Adjectival Equivalent: {get_adjectival_equivalent(Q4)}")
